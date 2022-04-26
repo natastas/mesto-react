@@ -29,13 +29,14 @@ function App() {
     setIsEditAvatarPopupOpen(true)
   }
 
-  const closeAllPopups = (e) => {
-    if (e.target.classList.contains('popup__close') || !(e.target.classList.contains('popup_opened')) || (e.key === 'Escape')) {
+  const closeAllPopups = () => {
+    
       setIsEditProfilePopupOpen(false)
       setIsAddPlacePopupOpen(false)
       setIsEditAvatarPopupOpen(false)
+      setIsImagePopupOpen(false)
       setSelectedCard(false)
-    } 
+    
   }
 
   return (
