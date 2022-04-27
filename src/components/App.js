@@ -35,7 +35,7 @@ function App() {
       setIsAddPlacePopupOpen(false)
       setIsEditAvatarPopupOpen(false)
       setIsImagePopupOpen(false)
-      setSelectedCard(false)
+      setSelectedCard({})
     
   }
 
